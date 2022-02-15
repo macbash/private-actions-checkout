@@ -19,6 +19,9 @@ jobs:
 
       - name: Private actions checkout
         uses: ./
+        env:
+          http_proxy: "http://localhost:3128"
+          https_proxy: "http://localhost:3128"
         with:
           actions_list: ${{ env.PRIVATE_CUSTOM_ACTIONS }}
           checkout_base_path: ./.github/actions
