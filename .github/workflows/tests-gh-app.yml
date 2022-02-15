@@ -4,7 +4,7 @@ on:
   - push
 
 env:
-  PRIVATE_CUSTOM_ACTIONS: '["macbash/private-custom-action-2@master"]'
+  PRIVATE_CUSTOM_ACTIONS: '["macbash/private-actions-checkout@master"]'
 
 jobs:
   app-key-base64:
