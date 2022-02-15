@@ -5,7 +5,7 @@ on:
   - pull_request_target
 
 env:
-  PRIVATE_CUSTOM_ACTIONS: '["daspn/private-custom-action-2@master"]'
+  PRIVATE_CUSTOM_ACTIONS: '["macbash/private-custom-action-2@master"]'
 
 jobs:
   app-key-base64:
